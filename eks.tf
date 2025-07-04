@@ -38,7 +38,7 @@ module "eks" {
       instance_types = ["t3.large"]
       capacity_type  = "SPOT"
 
-      key_name = "eks-cluster-terraform"  #your-existing-key-pair-name
+      key_name = "tab"  #your-existing-key-pair-name
       tags = {
         ExtraTag = "test"
       }
